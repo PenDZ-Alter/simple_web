@@ -1,0 +1,42 @@
+@import url("https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqblQ2dE10SUNKSnZzUXFpNE5xaF85Rm85MjRGUXxBQ3Jtc0tsZHBCeHNraC1tUjhYUnZDWVVoLUVyaDM1LWRRNWdoYk1fdnJySWotQ0tORTF1dmpvLUhjTkM1RElUS2Y1TVJGZy13dkxnUVpWMTlNZGZSSng0WHR0cndMdVdzRFgyZFZhc3l5R2JlLUlrM0pMOEZsRQ&q=https%3A%2F%2Ffonts.googleapis.com%2Fcss2%3Ffamily%3DPoppins%3Awght%40400%3B500%26display%3Dswap%27%29%3B&v=oF28ns9eVdc");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+  background: url("../img/back_blogs.jpg");
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  /* padding: 20px; */
+}
+
+/* Blog previews / list */
+.blog-preview {
+  background-color: #60e68c !important;
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fff;
+  transition: box-shadow 0.3s;
+}
+
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.blog-preview h2 {
+  font-family: "Quicksand";
+  font-weight: 700;
+  font-size: 20px;
+  color: #1e1edf !important;
+  margin-bottom: 8px;
+}
+
+.blogs {
+  margin-top: 100px;
+  color: #afafaf;
+}
+
+.title-blogs h2 {
+  color: #fff !important;
+}

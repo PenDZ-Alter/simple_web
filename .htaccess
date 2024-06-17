@@ -1,0 +1,19 @@
+<Files "web/composer.json">
+  Order allow,deny
+  Deny from all
+</Files>
+
+<Files "web/composer.lock">
+  Order allow,deny
+  Deny from all
+</Files>
+
+<Files "web/package.json">
+  Order allow,deny
+  Deny from all
+</Files>
+
+<Files "web/package-lock.json">
+  Order allow,deny
+  Deny from all
+</Files>
